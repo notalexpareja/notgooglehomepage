@@ -24,6 +24,7 @@ html {
 }
 
 a:link {
+    font-family: Helvetica, sans-serif;
     text-decoration: none;
     color: #f6f6f6;
     margin: .5rem;
