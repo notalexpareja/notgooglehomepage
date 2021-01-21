@@ -1,0 +1,176 @@
+html {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #100624, #100624);
+}
+.logo-text {
+
+}
+
+.icon-links {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+.text-links {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #f6f6f6;
+    margin: .5rem;
+}
+a:visited {
+    color: #f6f6f6;
+}
+a:hover {
+    color: #F28EC4;
+}
+a:active {
+    color: #94F87B;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166px;
+    letter-spacing: 0;
+    text-align: center;
+    background: linear-gradient(91.26deg, #79E5EC 2.37%, #F28EC4 24.7%, #FDD35A 42.22%, #79E5EC 58.07%, #94F87B 76.42%, #F28EC4 93.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+}
+
+.search-text-field {
+    margin-top: .5em;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+label {
+    margin: .5em;
+}
+.search-bar {
+    background: rgb(142,142,142);
+    background: linear-gradient(308deg, rgba(142,142,142,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 45px;
+    height: 3em;
+    width: 35em;
+}
+.buttons {
+    margin-top: 2rem;
+}
+.button-lucky {
+    margin: .5rem;
+    background: none;
+    border: 1px solid #f6f6f6;
+    color: #f6f6f6;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-lucky:hover {
+    border: none;
+    color: #100624;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: linear-gradient(91.26deg, #79E5EC 2.37%, #F28EC4 24.7%, #FDD35A 42.22%, #79E5EC 58.07%, #94F87B 76.42%, #F28EC4 93.03%);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationLucky 1s ease infinite;
+    -moz-animation: AnimationLucky 1s ease infinite;
+    -o-animation: AnimationLucky 1s ease infinite;
+    animation: AnimationLucky 1s ease infinite;
+}
+@-webkit-keyframes AnimationLucky {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+@-moz-keyframes AnimationLucky {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+@-o-keyframes AnimationLucky {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+@keyframes AnimationLucky {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+
+
+.button-search {
+    margin: .5rem;
+    background: none;
+    border: 1px solid #f6f6f6;
+    color: #f6f6f6;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-search:hover {
+    border: none;
+    color: #100624;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: linear-gradient(270deg, #00ff1b, #bdffc4);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName .5s ease infinite;
+    -moz-animation: AnimationName .5s ease infinite;
+    -o-animation: AnimationName .5s ease infinite;
+    animation: AnimationName .5s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0 50%}
+}
+
